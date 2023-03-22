@@ -1,0 +1,240 @@
+.split {
+    height: 100%;
+    width: 80%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #fdb932; 
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: #cfcfcf;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+  }
+
+  .centered img {
+    max-width: 300px;
+    /* margin-right: 760px; */
+    margin-left: -1100px;
+    /* margin-bottom: 250px; */
+    margin-top: -72px;
+}  
+
+.left_link {
+    margin-top: 235px;
+    margin-right: 870px;
+}
+
+.left_link ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.left_link ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.left_link ul li a:hover {
+    color: white;
+}
+
+.left_link ul li a:active {
+    color: white;
+}
+
+.about_me h1 {
+    font-size: 80px;
+    font-family: sans-serif;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 20px;
+} 
+
+#about_move {
+    margin-left: 180px;
+} 
+
+.mid_info {
+    margin-left: 120px;
+    margin-top: -30px;
+}
+
+.mid_info1 {
+    font-size: 30px;
+}
+
+.mid_info1 p {
+    font-weight: lighter;
+}
+
+.mid_info2 {
+    text-align: left;
+    margin-top: -20px;
+}
+
+.contact_list {
+    float: right;
+    margin-top: -80px;
+    margin-right: 25px;
+    background-color: #fdb932;
+    border-radius: 40px;
+    width: 30px;
+    height: 300px;
+}
+
+.contact_list ul li {
+    list-style-type: none;
+    border-radius: 20px;
+    background-color: #fdb932;
+}
+
+.contact_list ul li a {
+    text-decoration: none;
+}
+
+.contact_list ul li a img {
+    max-width: 20px;
+    margin-left: -35px;
+    margin-top: 8px;
+}
+
+.four_divs {
+    width: 55%;
+    background-color: black;
+}
+
+.four_divs1 {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0.5rem 0.5rem;
+    width: 220px;
+    height: 120px;
+    text-align: center;
+    background-color: black;
+}
+
+.work {
+    float: right;
+    margin-top: -280px;
+    margin-right: 270px;
+}
+
+.work .pen {
+    float: right;
+    max-width: 60px;
+    margin-right: 40px;
+    padding: 5px;
+}
+
+.work .web {
+    float: right;
+    max-width: 60px;
+    margin-right: 40px;
+    padding: 5px;
+}
+
+.work .camera {
+    float: right;
+    max-width: 68px;
+    margin-right: 38px;
+    padding: 5px;
+}
+
+.work1 .pd {
+    float: right;
+    margin-top: -210px;
+    margin-right: -180px;
+}
+
+.work1 .pdn {
+    float: right;
+    margin-top: -195px;
+    margin-right: -255px;
+    font-size: 10px;
+}
+
+.work1 .wd {
+    float: right;
+    margin-top: -135px;
+    margin-right: -170px;
+}
+
+.work1 .wdn {
+    float: right;
+    margin-top: -120px;
+    margin-right: -240px;
+    font-size: 10px;
+}
+
+.work1 .cam {
+    float: right;
+    margin-top: -65px;
+    margin-right: -190px;
+}
+
+.work1 .cam_n {
+    float: right;
+    margin-top: -50px;
+    margin-right: -240px;
+    font-size: 10px;
+}
+
+.color {
+    color: #fdb932;
+    font-size: 40px;
+}
+
+.color1 {
+    color: #fdb932;
+    font-size: 40px;
+}
+
+.color2 {
+    color: white;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 650px) {
+    .centered img {
+        max-width: 300px;
+        margin-right: 820px;
+        margin-bottom: 510px;
+    }
+
+    .left_link {
+        margin-top: 270px;
+        margin-right: 860px;
+    }
+    
+    .left_link ul li {
+        list-style: none;
+        text-align: center;
+    }
+    
+    .left_link ul li a {
+        text-decoration: none;
+    }
+
+     
+}

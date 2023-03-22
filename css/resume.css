@@ -1,0 +1,190 @@
+.split {
+    height: 100%;
+    width: 80%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #fdb932;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: #cfcfcf;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+  }
+
+  .centered img {
+    max-width: 300px;
+    /* margin-right: 760px; */
+    margin-left: -1100px;
+    /* margin-bottom: 250px; */
+    margin-top: -72px;
+}  
+
+.left_link {
+    margin-top: 235px;
+    margin-right: 870px;
+}
+
+.left_link ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.left_link ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.left_link ul li a:hover {
+    color: white;
+}
+
+.left_link ul li a:active {
+    color: white;
+}
+
+.about_me h1 {
+    font-size: 80px;
+    font-family: sans-serif;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 20px;
+} 
+
+#about_move {
+    margin-left: 210px;
+} 
+
+.mid_info {
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.mid_info1 {
+    font-size: 30px;
+}
+
+.mid_info1 p {
+    font-weight: lighter;
+}
+
+.contact_list {
+    float: right;
+    margin-top: -15px;
+    margin-right: 25px;
+    background-color: #fdb932;
+    border-radius: 40px;
+    width: 30px;
+    height: 300px;
+}
+
+.contact_list ul li {
+    list-style-type: none;
+    border-radius: 20px;
+    background-color: #fdb932;
+}
+
+.contact_list ul li a {
+    text-decoration: none;
+}
+
+.contact_list ul li a img {
+    max-width: 20px;
+    margin-left: -35px;
+    margin-top: 8px;
+}
+
+.four_divs {
+    margin-top: -80px;
+    margin-left: -70px;
+}
+
+.four_divs h3 {
+    margin-top: -30px;
+    /* padding-right: -300px; */
+    margin-left: 70px;
+}
+
+.edu {
+    margin-right: 500px;
+}
+
+.box2 {
+    margin-top: 60px;
+}
+
+.four_divs1 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    height: 120px;
+    text-align: left;
+    padding-left: 120px;
+    margin-left: -50px;
+    margin-top: -40px;
+}
+
+.work {
+    float: right;
+    margin-top: -280px;
+    margin-right: 270px;
+}
+
+.yellow {
+    background-color: #fdb932;
+    color: white;
+    padding: 1px;
+}
+
+#small_note {
+    margin-top: -20px;
+}
+
+hr {
+    margin-top: 40px;
+    width: 80%;
+}
+
+@media screen and (max-width: 750px) {
+    .centered img {
+        max-width: 300px;
+        margin-right: 820px;
+        margin-bottom: 510px;
+    }
+
+    .left_link {
+        margin-top: 270px;
+        margin-right: 860px;
+    }
+    
+    .left_link ul li {
+        list-style: none;
+        text-align: center;
+    }
+    
+    .left_link ul li a {
+        text-decoration: none;
+    }
+
+     
+}
